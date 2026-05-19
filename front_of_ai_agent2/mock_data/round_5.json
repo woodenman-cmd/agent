@@ -1,0 +1,209 @@
+{
+  "status": {
+    "npcs": [
+      {
+        "name": "Alice",
+        "identity": "落难千金",
+        "status": "存活",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "Bob",
+        "identity": "退伍老兵",
+        "status": "存活",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "Cooper",
+        "identity": "情报贩子",
+        "status": "存活",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "name": "David",
+        "identity": "破产父亲",
+        "status": "存活",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "Eggo",
+        "identity": "淘金客",
+        "status": "重伤",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "Flash",
+        "identity": "投机向导",
+        "status": "存活",
+        "x": 4,
+        "y": 4
+      }
+    ]
+  },
+  "relations": [],
+  "npc_details": {
+    "Alice": {
+      "status": "存活",
+      "background": "身份：落难千金。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 20,
+      "food": 1,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 5 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Bob": {
+      "status": "存活",
+      "background": "身份：退伍老兵。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 80,
+      "atk": 50,
+      "int": 70,
+      "gold": 30,
+      "food": 3,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 5 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Cooper": {
+      "status": "存活",
+      "background": "身份：情报贩子。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 70,
+      "food": 2,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 5 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "David": {
+      "status": "存活",
+      "background": "身份：破产父亲。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 65,
+      "atk": 50,
+      "int": 70,
+      "gold": 36,
+      "food": 1,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 5 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Eggo": {
+      "status": "重伤",
+      "background": "身份：淘金客。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 50,
+      "atk": 50,
+      "int": 70,
+      "gold": 5,
+      "food": 1,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 5 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Flash": {
+      "status": "存活",
+      "background": "身份：投机向导。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 70,
+      "food": 0,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 5 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    }
+  },
+  "ai_logs": [
+    {
+      "name": "Cooper",
+      "emoji": "🏚️",
+      "thought": "该死！治安官来查大额现金了！我这全是敲诈来的黑钱，必须避开大路去废墟躲躲。",
+      "decision": "前往: 🏚️ 战争废墟",
+      "color": "#3498db"
+    },
+    {
+      "name": "Flash",
+      "emoji": "🏚️",
+      "thought": "查违禁品？我这横财根本禁不起查，赶紧溜到荒野避风头！",
+      "decision": "前往: 🏚️ 战争废墟",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Alice",
+      "emoji": "🏛️",
+      "thought": "黑手自顾不暇了，我可以光明正大地走大路进城镇雇马车离开。",
+      "decision": "前往: 🏛️ 古老城镇",
+      "color": "#f1c40f"
+    },
+    {
+      "name": "Bob",
+      "emoji": "🛡️",
+      "thought": "顺着大路走不用拔剑，这笔钱赚得轻松。跟着雇主去城镇。",
+      "decision": "前往: 🏛️ 古老城镇",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "David",
+      "emoji": "⛓️",
+      "thought": "他们要查血迹！我绝不能走到大街上，只能躲在下水道等天黑去敲药铺后门。",
+      "decision": "留在原地: 🏛️ 古老城镇",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Eggo",
+      "emoji": "🤫",
+      "thought": "如果求救，矿洞的秘密就会被官方充公...我宁愿疼死也不说。",
+      "decision": "留在原地: 🏨 中央酒馆",
+      "color": "#1abc9c"
+    }
+  ],
+  "story_log": [
+    {
+      "round": 5,
+      "text": "第 5 轮 - 突发事件：治安官大搜查。为了躲避查处黑钱，Cooper 和 Flash 被迫逃入废墟。而 Alice 则光明正大地走入城镇。"
+    }
+  ]
+}

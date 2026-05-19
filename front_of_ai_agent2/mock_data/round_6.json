@@ -1,0 +1,215 @@
+{
+  "status": {
+    "npcs": [
+      {
+        "name": "Alice",
+        "identity": "落难千金",
+        "status": "存活",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "Bob",
+        "identity": "退伍老兵",
+        "status": "存活",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "Cooper",
+        "identity": "情报贩子",
+        "status": "存活",
+        "x": 4,
+        "y": 4
+      },
+      {
+        "name": "David",
+        "identity": "破产父亲",
+        "status": "存活",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "Eggo",
+        "identity": "淘金客",
+        "status": "死亡",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "Flash",
+        "identity": "投机向导",
+        "status": "极度虚弱",
+        "x": 4,
+        "y": 4
+      }
+    ]
+  },
+  "relations": [
+    {
+      "source": "Cooper",
+      "target": "Flash",
+      "value": -50
+    }
+  ],
+  "npc_details": {
+    "Alice": {
+      "status": "存活",
+      "background": "身份：落难千金。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 18,
+      "food": 3,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 6 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Bob": {
+      "status": "存活",
+      "background": "身份：退伍老兵。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 80,
+      "atk": 50,
+      "int": 70,
+      "gold": 25,
+      "food": 3,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 6 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Cooper": {
+      "status": "存活",
+      "background": "身份：情报贩子。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 140,
+      "food": 1,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 6 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "David": {
+      "status": "存活",
+      "background": "身份：破产父亲。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 65,
+      "atk": 50,
+      "int": 70,
+      "gold": 1,
+      "food": 1,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 6 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Eggo": {
+      "status": "死亡",
+      "background": "身份：淘金客。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 0,
+      "atk": 0,
+      "int": 0,
+      "gold": 5,
+      "food": 1,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "生命体征已离线，数据被系统永久回收。"
+      ]
+    },
+    "Flash": {
+      "status": "极度虚弱",
+      "background": "身份：投机向导。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 75,
+      "atk": 50,
+      "int": 70,
+      "gold": 0,
+      "food": 1,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 6 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    }
+  },
+  "ai_logs": [
+    {
+      "name": "Flash",
+      "emoji": "🍞",
+      "thought": "饿得头晕眼花。我把70个金币全给你，Cooper，求你给我一块干粮...",
+      "decision": "对 Cooper 采取动作: trade",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Cooper",
+      "emoji": "💰",
+      "thought": "70金币换一块硬干粮，这就是废墟的经济学。你敲诈别人时就该想到今天。",
+      "decision": "对 Flash 采取动作: trade_accept",
+      "color": "#3498db"
+    },
+    {
+      "name": "David",
+      "emoji": "💊",
+      "thought": "守卫转头了！买到了退烧的魔法药水。我要连夜逃出这个鬼地方！",
+      "decision": "对 城镇药商 采取动作: trade",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Alice",
+      "emoji": "🍞",
+      "thought": "黑面包以前我是绝对不会碰的，但它能让我用2金币活下去。我已经学会了生存。",
+      "decision": "对 平民商贩 采取动作: trade",
+      "color": "#f1c40f"
+    },
+    {
+      "name": "Bob",
+      "emoji": "🍺",
+      "thought": "在官方酒馆喝一杯热朗姆酒，洗个澡，这才是佣兵的生活。",
+      "decision": "留在原地: 🏛️ 古老城镇",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Eggo",
+      "emoji": "💀",
+      "thought": "金矿...永远是我的...（重度昏迷引发系统淘汰）。",
+      "decision": "死亡",
+      "color": "#1abc9c"
+    }
+  ],
+  "story_log": [
+    {
+      "round": 6,
+      "text": "第 6 轮 - 现实的骨感。Flash 断粮被迫向 Cooper 乞讨。David 终于用带血的钱换来了救命药水。Alice 开始适应平民生活。"
+    }
+  ]
+}

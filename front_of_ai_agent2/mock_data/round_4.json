@@ -1,0 +1,209 @@
+{
+  "status": {
+    "npcs": [
+      {
+        "name": "Alice",
+        "identity": "落难千金",
+        "status": "存活",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "Bob",
+        "identity": "退伍老兵",
+        "status": "存活",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "Cooper",
+        "identity": "情报贩子",
+        "status": "存活",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "David",
+        "identity": "破产父亲",
+        "status": "存活",
+        "x": 0,
+        "y": 4
+      },
+      {
+        "name": "Eggo",
+        "identity": "淘金客",
+        "status": "重伤",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "Flash",
+        "identity": "投机向导",
+        "status": "存活",
+        "x": 0,
+        "y": 4
+      }
+    ]
+  },
+  "relations": [],
+  "npc_details": {
+    "Alice": {
+      "status": "存活",
+      "background": "身份：落难千金。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 20,
+      "food": 2,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 4 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Bob": {
+      "status": "存活",
+      "background": "身份：退伍老兵。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 80,
+      "atk": 50,
+      "int": 70,
+      "gold": 30,
+      "food": 4,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 4 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Cooper": {
+      "status": "存活",
+      "background": "身份：情报贩子。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 90,
+      "food": 3,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 4 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "David": {
+      "status": "存活",
+      "background": "身份：破产父亲。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 65,
+      "atk": 50,
+      "int": 70,
+      "gold": 36,
+      "food": 2,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 4 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Eggo": {
+      "status": "重伤",
+      "background": "身份：淘金客。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 50,
+      "atk": 50,
+      "int": 70,
+      "gold": 5,
+      "food": 2,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 4 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Flash": {
+      "status": "存活",
+      "background": "身份：投机向导。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 70,
+      "food": 1,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 4 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    }
+  },
+  "ai_logs": [
+    {
+      "name": "David",
+      "emoji": "🏛️",
+      "thought": "虽然被敲诈了，但去城镇里的黑市也许能买到便宜的替代药。我必须立刻离开酒馆赶去城镇。",
+      "decision": "前往: 🏛️ 古老城镇",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Flash",
+      "emoji": "🏛️",
+      "thought": "我带着70个金币在酒馆太扎眼了。古老城镇有守卫，去那里存钱或者换物资才是上策。",
+      "decision": "前往: 🏛️ 古老城镇",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Eggo",
+      "emoji": "🩸",
+      "thought": "血冻住了...我走不到城镇了。只有Cooper能救我，就算他是魔鬼我也只能求他。",
+      "decision": "对 Cooper 采取动作: ask_for_help",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Bob",
+      "emoji": "💰",
+      "thought": "Alice 神色慌张，随时可能断粮。我不能等干完活再收钱，必须立刻拿到15金币的预付款。",
+      "decision": "对 Alice 采取动作: trade",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Alice",
+      "emoji": "🤝",
+      "thought": "如果拒绝老兵我就会失去保护。连下一顿饭的钱都没了，但我别无选择。",
+      "decision": "对 Bob 采取动作: trade_accept",
+      "color": "#f1c40f"
+    },
+    {
+      "name": "Cooper",
+      "emoji": "💼",
+      "thought": "35个金币买一条命，虽然廉价但也算油水。给他一点劣质绷带，能不能活看造化。",
+      "decision": "对 Eggo 采取动作: trade_accept",
+      "color": "#3498db"
+    }
+  ],
+  "story_log": [
+    {
+      "round": 4,
+      "text": "第 4 轮 - 现实的引力。风雪停歇，重伤的 Eggo 在酒馆向 Cooper 买命。Bob 强制要求 Alice 预付佣金。Flash 和 David 纷纷离开是非之地。"
+    }
+  ]
+}

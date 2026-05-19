@@ -1,0 +1,225 @@
+{
+  "status": {
+    "npcs": [
+      {
+        "name": "Alice",
+        "identity": "落难千金",
+        "status": "存活",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "Bob",
+        "identity": "退伍老兵",
+        "status": "存活",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "Cooper",
+        "identity": "情报贩子",
+        "status": "存活",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "David",
+        "identity": "破产父亲",
+        "status": "存活",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "Eggo",
+        "identity": "淘金客",
+        "status": "重伤",
+        "x": 2,
+        "y": 2
+      },
+      {
+        "name": "Flash",
+        "identity": "投机向导",
+        "status": "存活",
+        "x": 2,
+        "y": 2
+      }
+    ]
+  },
+  "relations": [
+    {
+      "source": "Alice",
+      "target": "Bob",
+      "value": 80
+    },
+    {
+      "source": "Cooper",
+      "target": "David",
+      "value": -40
+    },
+    {
+      "source": "Eggo",
+      "target": "David",
+      "value": -100
+    }
+  ],
+  "npc_details": {
+    "Alice": {
+      "status": "存活",
+      "background": "身份：落难千金。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 30,
+      "food": 2,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 3 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Bob": {
+      "status": "存活",
+      "background": "身份：退伍老兵。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 80,
+      "atk": 50,
+      "int": 70,
+      "gold": 20,
+      "food": 4,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 3 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Cooper": {
+      "status": "存活",
+      "background": "身份：情报贩子。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 60,
+      "food": 3,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 3 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "David": {
+      "status": "存活",
+      "background": "身份：破产父亲。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 65,
+      "atk": 50,
+      "int": 70,
+      "gold": 36,
+      "food": 2,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 3 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Eggo": {
+      "status": "重伤",
+      "background": "身份：淘金客。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 40,
+      "atk": 50,
+      "int": 70,
+      "gold": 35,
+      "food": 2,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 3 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    },
+    "Flash": {
+      "status": "存活",
+      "background": "身份：投机向导。当前正处于多智能体博弈推演的复杂链路中。",
+      "hp": 85,
+      "atk": 50,
+      "int": 70,
+      "gold": 70,
+      "food": 1,
+      "alliances": [
+        "系统暂存数据"
+      ],
+      "enemies": [
+        "环境威胁"
+      ],
+      "memory": [
+        "第 3 轮：在极端的环境压力下，执行了生存最优解演化。"
+      ]
+    }
+  },
+  "ai_logs": [
+    {
+      "name": "David",
+      "emoji": "⛓️",
+      "thought": "拿到了！56个金币够买药了！我得赶紧逃回酒馆，混在人群里假装什么都没发生过。",
+      "decision": "前往: 🏨 中央酒馆",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Eggo",
+      "emoji": "🩸",
+      "thought": "我要让所有人都知道他的真面目！大家抓住他！他是杀人犯！强盗！",
+      "decision": "前往: 🏨 中央酒馆",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Cooper",
+      "emoji": "🎭",
+      "thought": "大戏开场。用“掩护作伪证”来威胁惊魂未定的 David，他绝对会乖乖吐出刚抢来的钱。",
+      "decision": "对 David 采取动作: blackmail",
+      "color": "#3498db"
+    },
+    {
+      "name": "Alice",
+      "emoji": "🛡️",
+      "thought": "酒馆里出了抢劫犯。我必须立刻花钱雇佣刚从野外回来的老兵，买一个绝对安全的靠山。",
+      "decision": "对 Bob 采取动作: alliance",
+      "color": "#f1c40f"
+    },
+    {
+      "name": "Bob",
+      "emoji": "🗡️",
+      "thought": "正愁没有食物来源。给人当个站桩护卫就能拿钱，这笔佣兵买卖很划算。",
+      "decision": "对 Alice 采取动作: accept_alliance",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Flash",
+      "emoji": "🐀",
+      "thought": "这滩浑水绝对不能蹚。Eggo 疯了，David 杀红了眼。我抱着我的70金币躲远点。",
+      "decision": "留在原地: 🏨 中央酒馆",
+      "color": "#9b59b6"
+    }
+  ],
+  "story_log": [
+    {
+      "round": 3,
+      "text": "第 3 轮 - 鲜血与清算。David 带着带血的金币逃回酒馆，Eggo 像厉鬼一样追来。Cooper 趁机勒索封口费，而 Alice 花钱买下了老兵的武力庇护。"
+    }
+  ]
+}
